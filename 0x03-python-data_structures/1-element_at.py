@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def element_at(list, idx):
-    if idx < 0 or idx > len(list):
-        return None
+def element_at(my_list, idx):
+    if idx < 0 or idx > len(my_list):
+        return "None"
     else:
-        print("Element at index {:d} is {}".format(idx, list[idx]))
+        print("Element at index {:d} is {}".format(idx, my_list[idx]))
